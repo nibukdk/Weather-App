@@ -14,17 +14,28 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col s12 m7">
-				<div class="card">
+			<div class="col s12 m9 l9 section">
+				<div class="card large ">
 					<div class="card-image">
 						<img src="">
-						<span class="card-title">Card Title</span>
+					</div>
+					<h3 class="card-title center-align">Weather <span class="city-name"></h3> </span>
+					<span class="fullDate right"></span>
+
+					<div class="card-tabs">
+						<ul class="tabs">
+							<li class="tab"><a href="#celcius">In Celcius</a></li>
+							<li class="tab"><a href="#kelvin">In Kelvin</a></li>
+						</ul>
+					</div>
+					<div class="  grey lighten-4 center-align">
+						<div id="celcius">Test 1</div>
+						<div id="kelvin">Test 2</div>
 					</div>
 					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-					</div>
-					<div class="card-action">
-						<a href="#">This is a link</a>
+						<p class="tempInCel"></p>
+						<p class="maxTempInCel"></p>
+						<p class="minTempInCel"></p>
 					</div>
 				</div>
 			</div>
